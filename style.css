@@ -1,0 +1,100 @@
+/* CSS Document */
+
+/*CSS RESET*/
+body, nav, header, main, footer, h1, div, img, ul, p, blockquote, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*body*/
+
+body {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background: #95C7C2;
+}
+
+main {
+	background-color: #FFFFFF;
+	padding: 2em;
+}
+
+.container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+	font-size: 20px;
+	padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+  }
+
+.img {
+	max-width: 50%;
+    max-height:20%;
+    float: left;
+	border: solid #81A9AA 1em;
+}
+
+/*NAV*/
+nav {
+	background-color: #4A3F3F;
+	margin-top: 2em;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 2em;
+}
+
+a:hover {
+	color: #6A5757;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em 1em 0 0;
+	padding-bottom: 2em;
+}
+
+/*headers*/
+
+h1 {
+	padding: 1em;
+	text-align: center;
+	color: #fff;
+}
+
+/*footer*/
+
+footer {
+	background-color: #4A3F3F;
+	padding: 2em;
+}
+
+footer p {
+	font-size: .7em;
+	color: white;
+}
+
+.footerNav a {
+	text-decoration: none;
+	color: white;
+}
+
+.copyright {
+	padding: 2em 0;
+}
